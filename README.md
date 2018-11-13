@@ -7,6 +7,7 @@ Once inventoried we begin to use Go's parser library to extract the import infor
 
 Simply build the application and run it at the root of a go directory
 
+```
 ~/git/go/src/github.com/mdempsky
 ❯ $GOBIN/importfinder | jq .
 {
@@ -33,4 +34,5 @@ Simply build the application and run it at the root of a go directory
   ],
   ...
 
-``````````
+```
+
